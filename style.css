@@ -1,0 +1,107 @@
+/* Estilos Gerais */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #e91e63; /* Rosa Chiclete */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 2;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Estilo do Produto */
+.produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-produto img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.produto h2 {
+    color: #c2185b; /* Rosa Escuro */
+    font-size: 1.4em;
+    margin-top: 0;
+}
+
+.preco {
+    font-size: 1.5em;
+    color: #ff9fd7; /* Verde */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+/* Botão */
+.btn-destaque {
+    background-color: #ec6592; /* Pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-destaque:hover {
+    background-color: #e91e63;
+}
+
+/* Mensagem de Destaque (JS) */
+.mensagem-destaque {
+    color: #00796b; /* Ciano-Esverdeado */
+    font-weight: bold;
+    margin-top: 10px;
+    min-height: 1.2em; /* Para evitar que o layout se mova */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
